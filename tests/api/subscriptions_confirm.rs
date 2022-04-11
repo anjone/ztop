@@ -1,5 +1,4 @@
 
-use reqwest::Url;
 use wiremock::{ResponseTemplate, Mock};
 use wiremock::matchers::{path, method};
 
