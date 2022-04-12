@@ -114,7 +114,7 @@ pub async fn send_confirmation_email(
     );
     email_client
         .send_email(
-            new_subscriber.email,
+            &new_subscriber.email,
             "test!",
             &html_body,
             &text_body,
